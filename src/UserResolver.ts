@@ -117,5 +117,6 @@ export class UserResolver {
         @Ctx() {res}: MyContext
     ) {
         sendRefreshToken(res, '')
+        return true
     }
 }
